@@ -1,0 +1,51 @@
+body{
+  background-color: #61a4bb;
+}
+
+h1{
+  text-align: center;
+}
+
+button{
+  display: block;
+width: 100px;
+margin: 10px auto
+}
+
+img {
+
+width: 90px;
+
+height: 90px;
+
+float: left;
+
+}
+
+#idCard {
+
+border: 5px solid black;
+
+margin: 10px auto auto auto;
+    
+    
+padding: 10px;
+
+height: 14em;
+
+width: 25em;
+
+background-color:#eec4cb;
+}
+
+#formID{
+  text-align: center;
+  align-content: center;
+}
+
+#postFullName{
+ 
+  font-size: 30px;
+  text-align: center;
+}
+
