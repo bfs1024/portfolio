@@ -15,7 +15,7 @@ function printAndGetHighScore(scores) {
   for (var i = 0; i < scores.length; i++) {
     output = "Bubble solution #" + i + " score: " + scores[i];
     console.log(output);
-    if (scores[i] > highScore) {
+    if (scores[i] > highScore) { //get the highest number in the array
       highScore = scores[i];
     }
   }
@@ -29,7 +29,7 @@ for (var i = 0; i < scores.length; i++) {
   if (scores[i] == highScore) {
     bestSolutions.push(i);
   }
-}
+}  //prints out highest number
 console.log("Solutions with the highest score: " + bestSolutions);
 
 function getBestResults(scores, highScore) {
@@ -42,7 +42,7 @@ function getBestResults(scores, highScore) {
   return bestSolutions;
 }
 var highScore = printAndGetHighScore(scores);
-console.log("Bubbles tests: " + scores.length);
+console.log("Bubbles tests: " + scores.length); //the number of test in the array
 console.log("Highest bubble score: " + highScore);
 var bestSolutions = getBestResults(scores, highScore);
 console.log("Solutions with the highest score: " + bestSolutions);
